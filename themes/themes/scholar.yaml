@@ -1,0 +1,37 @@
+name: Scholar
+
+ui:
+  bg0: "#E0D0B0"   # Old paper
+  bg1: "#D6C5A5"   # Aged paper
+  bg2: "#CCBA99"   # Tea-stained paper
+  bg3: "#C2AF8D"   # Selection
+
+text:
+  fg0: "#584850"   # Warm ink
+  fg1: "#6A564B"
+  fg2: "#7C675A"
+  fg3: "#9B8575"
+
+accent:
+  primary: "#8C6846"   # Walnut
+  secondary: "#A17A50" # Antique brass
+
+ansi:
+  black:   "#584850"
+  red:     "#9A5B47"
+  green:   "#6E7550"
+  yellow:  "#B88B45"
+  blue:     "#7A6958"
+  magenta: "#8A675D"
+  cyan:     "#7C7466"
+  white:   "#F2E6CF"
+
+bright:
+  black:   "#726055"
+  red:     "#B56D57"
+  green:   "#879164"
+  yellow:  "#CEA25A"
+  blue:     "#9B8673"
+  magenta: "#A88376"
+  cyan:     "#9B917F"
+  white:   "#FFF7E8"

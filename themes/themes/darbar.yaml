@@ -1,0 +1,37 @@
+name: Darbar
+
+ui:
+  bg0: "#F1DFC3"   # Sunlit Makrana marble
+  bg1: "#E4CCAB"   # Sandstone
+  bg2: "#D4B58B"   # Palace wall
+  bg3: "#C39A67"   # Carved sandstone
+
+text:
+  fg0: "#44281E"   # Rosewood
+  fg1: "#5A3628"
+  fg2: "#75503E"
+  fg3: "#9A7860"
+
+accent:
+  primary: "#A32F3A"   # Royal ruby
+  secondary: "#B58A2E" # Antique gold
+
+ansi:
+  black:   "#3A241D"
+  red:     "#A32F3A"   # Ruby
+  green:   "#2F6B4E"   # Persian garden
+  yellow:  "#C79A2B"   # Temple gold
+  blue:    "#355C7D"   # Lapis
+  magenta: "#7C3056"   # Silk purple
+  cyan:    "#2F7C74"   # Peacock jade
+  white:   "#F8EEDB"
+
+bright:
+  black:   "#6B4A3E"
+  red:     "#C74A55"
+  green:   "#4D8B69"
+  yellow:  "#E0B54B"
+  blue:    "#4F7CA3"
+  magenta: "#A14A76"
+  cyan:    "#4F9E94"
+  white:   "#FFF8EC"

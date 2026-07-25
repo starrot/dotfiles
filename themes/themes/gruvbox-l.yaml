@@ -1,0 +1,37 @@
+name: Gruvbox Light
+
+ui:
+  bg0: "#fbf1c7"   # Main background
+  bg1: "#ebdbb2"   # Panels
+  bg2: "#d5c4a1"   # Menus
+  bg3: "#bdae93"   # Selection
+
+text:
+  fg0: "#3c3836"   # Main text
+  fg1: "#504945"
+  fg2: "#665c54"
+  fg3: "#928374"
+
+accent:
+  primary: "#98971a"   # Gruvbox green
+  secondary: "#689d6a"
+
+ansi:
+  black:   "#282828"
+  red:     "#cc241d"
+  green:   "#98971a"
+  yellow:  "#d79921"
+  blue:    "#458588"
+  magenta: "#b16286"
+  cyan:    "#689d6a"
+  white:   "#fbf1c7"
+
+bright:
+  black:   "#928374"
+  red:     "#9d0006"
+  green:   "#79740e"
+  yellow:  "#b57614"
+  blue:    "#076678"
+  magenta: "#8f3f71"
+  cyan:    "#427b58"
+  white:   "#f9f5d7"

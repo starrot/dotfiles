@@ -1,0 +1,37 @@
+name: Moss
+
+ui:
+  bg0: "#C9C39F"   # Main background (aged paper)
+  bg1: "#D6D0AF"   # Panels
+  bg2: "#E4DFC4"   # Menus
+  bg3: "#F1ECD9"   # Selection
+
+text:
+  fg0: "#38412F"   # Main text
+  fg1: "#505A45"
+  fg2: "#707862"
+  fg3: "#989D89"
+
+accent:
+  primary: "#5D7A45"
+  secondary: "#7A9361"
+
+ansi:
+  black:   "#4D5345"
+  red:     "#A65D57"
+  green:   "#5D7A45"
+  yellow:  "#B89745"
+  blue:    "#6F8672"
+  magenta: "#8F7D98"
+  cyan:    "#5E9384"
+  white:   "#E8E3D2"
+
+bright:
+  black:   "#6C7363"
+  red:     "#BF746C"
+  green:   "#77995B"
+  yellow:  "#D0B365"
+  blue:    "#89A08B"
+  magenta: "#A593B2"
+  cyan:    "#79B09F"
+  white:   "#FCFAF3"

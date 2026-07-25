@@ -1,0 +1,31 @@
+[colors.primary]
+background = "{{ ui.bg0 }}"
+foreground = "{{ text.fg0 }}"
+
+[colors.cursor]
+text = "{{ ui.bg0 }}"
+cursor = "{{ accent.primary }}"
+
+[colors.selection]
+text = "{{ text.fg0 }}"
+background = "{{ ui.bg3 }}"
+
+[colors.normal]
+black   = "{{ ansi.black }}"
+red     = "{{ ansi.red }}"
+green   = "{{ ansi.green }}"
+yellow  = "{{ ansi.yellow }}"
+blue    = "{{ ansi.blue }}"
+magenta = "{{ ansi.magenta }}"
+cyan    = "{{ ansi.cyan }}"
+white   = "{{ ansi.white }}"
+
+[colors.bright]
+black   = "{{ bright.black }}"
+red     = "{{ bright.red }}"
+green   = "{{ bright.green }}"
+yellow  = "{{ bright.yellow }}"
+blue    = "{{ bright.blue }}"
+magenta = "{{ bright.magenta }}"
+cyan    = "{{ bright.cyan }}"
+white   = "{{ bright.white }}"

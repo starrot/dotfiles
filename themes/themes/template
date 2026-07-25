@@ -1,0 +1,37 @@
+name =
+
+ui:
+  bg0: 
+  bg1: 
+  bg2: 
+  bg3: 
+
+text:
+  fg0: 
+  fg1: 
+  fg2: 
+  fg3: 
+
+accent:
+  primary: 
+  secondary: 
+
+ansi:
+  black:   
+  red:     
+  green:   
+  yellow:  
+  blue:    
+  magenta: 
+  cyan:    
+  white:   
+
+bright:
+  black:   
+  red:     
+  green:   
+  yellow:  
+  blue:    
+  magenta: 
+  cyan:    
+  white:   

@@ -1,0 +1,31 @@
+config.load_autoconfig()
+
+config.bind("J", "tab-prev")
+config.bind("K", "tab-next")
+
+config.bind("xx", "tab-close")
+config.bind("tt", "cmd-set-text -s :open")
+
+config.unbind("d")
+
+c.downloads.location.directory = "~/Downloads"
+c.downloads.location.prompt = True
+
+c.scrolling.smooth = False
+
+c.editor.command = [
+    "nvim",
+    "{}"
+]
+
+config.bind(
+    ",p",
+    "spawn --userscript view-pdf"
+)
+
+c.auto_save.session = True
+
+c.tabs.background = True
+
+c.content.autoplay = False
+c.content.notifications.enabled = False

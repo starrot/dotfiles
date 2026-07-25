@@ -1,0 +1,14 @@
+#!/bin/sh
+
+source "$HOME/.config/scripts/dmenu/dmenu-utils.sh"
+
+confirm() {
+    [ "$(printf "Yes\nNo" | dmenu -p "Are you sure?")" = "Yes" ]
+}
+
+case "$(printf "Shutdown\nReboot\nLock\nLogout" | dmenu -p "Power")" in
+    Shutdown) confirm && systemctl poweroff ;;
+    Reboot)   confirm && systemctl reboot ;;
+    Lock)     slock ;;
+    Logout)   confirm && bspc quit ;;
+esac

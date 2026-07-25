@@ -1,0 +1,5 @@
+#!/bin/sh
+
+source "$HOME/.config/scripts/dmenu/dmenu-utils.sh"
+
+dmenu_path | dmenu -p "Run:" | xargs -r sh -c

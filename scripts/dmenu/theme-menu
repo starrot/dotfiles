@@ -1,0 +1,15 @@
+#!/bin/sh
+
+source "$HOME/.config/scripts/dmenu/dmenu-utils.sh"
+
+THEMES="$HOME/.config/themes/themes"
+APPLY="$HOME/.config/themes/apply.py"
+
+theme=$(find "$THEMES" -name "*.yaml" -printf "%f\n" |
+    sed 's/.yaml//' |
+    dmenu -p "Theme:")
+
+[ -z "$theme" ] && exit
+
+python "$APPLY" "$theme"
+
